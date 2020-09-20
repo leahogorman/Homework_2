@@ -24,5 +24,6 @@
     https://github.com/c0dehot
     https://github.com/shibeknight
 # Links
-    The Link to the GITHUB site
+    The Links to the GITHUB site and the Live site are
     https://github.com/leahogorman/Leahs_Portfolio
+    https://leahogorman.github.io/Leahs_Portfolio/
