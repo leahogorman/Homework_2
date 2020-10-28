@@ -8,12 +8,12 @@
 
 </head>
 <body>
-    <header>
-      <nav class="navbar navbar-light" style="background-color: plum;">
-        <a class="navbar-brand" href="#">Leah O'Gorman</a>
+  <header>
+    <nav class="navbar navbar-light" style="background-color: pink;">
+        <a id="name" class="navbar-brand" href="index.html">Leah O'Gorman</a>
         <ul class="nav nav-pills justify-content-end">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home/About</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
@@ -23,12 +23,11 @@
             </li>
           </ul>
           </nav>
+
     </header>
 <br>
 <main>
 <div class="container">
-<div class="row justify-content-sm-center justify-content-md-start justify-content-lg-start">
-<div class="col-10 col-md-6 col-lg-10">
     <div class="jumbotron">
     <br>
     <h1 class="display-4">CONTACT</h1>
@@ -49,14 +48,6 @@
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>
     <br><br>
-  </div>
-<div>
-
-</div>
-            
-
-  
-</div>
 
 </div>
 </div>
@@ -71,9 +62,14 @@
     <style>
       body {
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        background-image: url(https://traveli4.com/wp-content/uploads/2014/11/website-background-pattern.jpg)
+        background-image: url(images/pexels-eberhard-grossgasteiger-2088170.jpg)
       }
-
+      #name:hover {
+        background-color: black;
+          color: pink;
+          font-weight: bold;
+          border-radius: 5px;
+      }
       nav a {
           background-color: none;
       }
@@ -82,28 +78,27 @@
       }
       nav a:hover {
           background-color: black;
-          color: plum;
+          color: pink;
           font-weight: bold;
       }
       
       .display-4 {
         font-size: 80px;
         font-weight: bold;
-        color: plum;
       }
       .container {
         max-width: 1000px;
       }
       .jumbotron {
-        background-color: white;
+        background-color:  pink;
       }
 
       footer {
-      position: sticky;
+      position: fixed;
       left: 0;
       bottom: 0;
       width: 100%;
-      background-color: plum;
+      background-color: pink;
       text-align: center;
 
 }
